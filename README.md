@@ -32,6 +32,15 @@ This repository contains a collection of projects completed as part of an AI eng
   - **Hyperparameter Tuning:** Experimenting with different learning rates to find the optimal one for the model.
   - **Regularization:** Using L2 regularization (weight decay) to prevent overfitting.
 
+### 4. AI Capstone Project: Data Loading and Augmentation (`AI-capstone-project/Lab_M1L2_Data Loading_and_Augmentation_Using_Keras.ipynb`)
+
+- **Objective:** Build and compare a custom data generator with Keras's built-in `image_dataset_from_directory` utility for loading and augmenting satellite images.
+- **Key Learnings:**
+  - **Custom Data Generators:** Understanding how to build a Python generator to load data in batches, which is essential for handling large datasets that don't fit into memory.
+  - **Keras Data Pipelines:** Using the high-performance `tf.data.Dataset` object created by Keras utilities.
+  - **Performance Optimization:** Applying `.cache()` and `.prefetch()` to a `tf.data.Dataset` to optimize the input pipeline and prevent I/O bottlenecks.
+  - **Data Augmentation:** Using Keras preprocessing layers (`RandomFlip`, `RandomRotation`) to augment the training data on-the-fly.
+
 ---
 
-
+_This repository showcases my ability to apply a variety of machine learning and deep learning techniques to solve real-world problems._
