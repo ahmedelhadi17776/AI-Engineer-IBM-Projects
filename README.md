@@ -32,15 +32,13 @@ This repository contains a collection of projects completed as part of an AI eng
   - **Hyperparameter Tuning:** Experimenting with different learning rates to find the optimal one for the model.
   - **Regularization:** Using L2 regularization (weight decay) to prevent overfitting.
 
-### 4. AI Capstone Project: Comparative Analysis of Keras and PyTorch Models (`AI-capstone-project/Lab_M2L3_Comparative_Analysis_of_Keras_and_PyTorch_Models.ipynb`)
-
-- **Objective:** Evaluate and compare the performance of pre-trained Keras and PyTorch CNN models on a satellite image classification task.
+### 4. AI Capstone Project: Land Classification CNN-ViT Integration and Evaluation (`AI-capstone-project/lab_M4L1_Land_Classification_CNN-ViT_Integration_Evaluation.ipynb`)
+- **Objective:** Evaluate and compare pre-trained CNN-Vision Transformer (ViT) hybrid models built in both Keras and PyTorch.
 - **Key Learnings:**
-  - **Model Evaluation Metrics:** Calculating and interpreting key classification metrics, including accuracy, precision, recall, F1-score, and ROC-AUC.
-  - **Confusion Matrix:** Visualizing the confusion matrix to understand the specific types of errors a model is making.
-  - **ROC Curve:** Plotting and comparing ROC curves to assess the trade-off between true positive rate and false positive rate.
-  - **Framework Comparison:** Making an informed decision between two models based on a comprehensive set of performance metrics.
+  - **Model Loading:** Loading pre-trained Keras and PyTorch models, including custom layers and state dictionaries.
+  - **Model Inference:** Generating predictions on a common dataset using both frameworks.
+  - **Comprehensive Evaluation:** Calculating and interpreting a full suite of classification metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC) for a thorough model comparison.
+  - **Framework-Agnostic Comparison:** Analyzing performance differences and similarities between Keras and PyTorch implementations to make informed decisions for deployment.
 
 ---
-
 _This repository showcases my ability to apply a variety of machine learning and deep learning techniques to solve real-world problems._
