@@ -4,6 +4,8 @@
 # Python virtual environment
 venv/
 *.venv/
+*.keras
+*.pth
 
 # IDE settings
 .vscode/
@@ -12,3 +14,7 @@ venv/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Model files
+*.keras
+*.pth

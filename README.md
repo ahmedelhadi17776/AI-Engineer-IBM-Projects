@@ -32,14 +32,14 @@ This repository contains a collection of projects completed as part of an AI eng
   - **Hyperparameter Tuning:** Experimenting with different learning rates to find the optimal one for the model.
   - **Regularization:** Using L2 regularization (weight decay) to prevent overfitting.
 
-### 4. AI Capstone Project: Implment and Test a PyTorch-Based Classifier (`AI-capstone-project/Lab_M2L2_Implement_and_Test_a_PyTorch-Based_Classifier.ipynb`)
+### 4. AI Capstone Project: Comparative Analysis of Keras and PyTorch Models (`AI-capstone-project/Lab_M2L3_Comparative_Analysis_of_Keras_and_PyTorch_Models.ipynb`)
 
-- **Objective:** Build, train, and evaluate a PyTorch-based CNN for classifying satellite images.
+- **Objective:** Evaluate and compare the performance of pre-trained Keras and PyTorch CNN models on a satellite image classification task.
 - **Key Learnings:**
-  - **PyTorch `nn.Sequential`:** Building a CNN model in PyTorch using a sequential container.
-  - **Training Loop:** Implementing a complete training and validation loop from scratch, including forward pass, loss calculation, backpropagation, and optimizer steps.
-  - **Model Evaluation:** Tracking training and validation accuracy and loss to visualize the learning process and identify overfitting.
-  - **Reproducibility:** Setting random seeds for Python, NumPy, and PyTorch to ensure reproducible results.
+  - **Model Evaluation Metrics:** Calculating and interpreting key classification metrics, including accuracy, precision, recall, F1-score, and ROC-AUC.
+  - **Confusion Matrix:** Visualizing the confusion matrix to understand the specific types of errors a model is making.
+  - **ROC Curve:** Plotting and comparing ROC curves to assess the trade-off between true positive rate and false positive rate.
+  - **Framework Comparison:** Making an informed decision between two models based on a comprehensive set of performance metrics.
 
 ---
 
